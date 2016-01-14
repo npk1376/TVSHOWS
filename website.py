@@ -1,3 +1,5 @@
+# This code - MAINLY - was provided by UDACITY as part of the "Programming Foundations with Python".
+# Minor changes were made in javascript, css and in the .format of the movie content to add some features
 import webbrowser
 import os
 import re
