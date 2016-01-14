@@ -10,7 +10,7 @@ x_files = tvshow.TvShow("X-Files", "Two FBI agents investigate paranormal "
                         #the url for the trailer video on youtube
                         "100/MPW-50006", "https://www.youtube.com/watch?v=_"
                         "1SmJUBT5q0")
-#the next 4 instances are created in the same manner
+# the next 4 instances are created in the same manner
 sherlock = tvshow.TvShow("Sherlock", "The new rendishion of the classical "
                          "stories. Sherlock Holmes of the 21st century.",
                          "Benedict Cumberbatch, Martin Freeman",
@@ -40,8 +40,8 @@ the_americans = tvshow.TvShow("The Americans", "The intricate spy games of the "
                               "-americans-poster.jpg", "https://www.youtube.com"
                               "/watch?v=YGr75NZ5y34")
 
-#put all the show into an array which will be passed as an argument to the
-#function open_movies_page
+# put all the show into an array which will be passed as an argument to the
+# function open_movies_page
 tvShows = [x_files, sherlock, the_fall, criminal_minds, the_americans]
 website.open_movies_page(tvShows)
 
